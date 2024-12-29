@@ -60,7 +60,7 @@ Power BI - Creating Reports
 ## DATA MANIPULATION AND PREPARATION
 The dataset was provided as a clean CSV file containing one Table of approximately 96,000 911 call records, with each record representing a unique incident and 25 columns. No missing values or duplicates were found upon review. However, I enhanced the dataset to facilitate deeper analysis and answer time-based questions, such as trends over specific periods or time of day.
 To enhance the dataset and facilitate deeper analysis, I made the following adjustments:
-- Created two additional columns
+**- Created two additional columns**
 
 **‘Month’:** Extracted from the **Response Datetime** column to analyze monthly trends in response times and call volumes.
 
@@ -139,20 +139,30 @@ This page provides valuable insights into the district-level performance of the 
   
 ## OBSERVATIONS
 **1. Response Time Performance:**
+
 **- Overall Response Time:** The overall average response time for all calls was 3.01k seconds (approximately 50 minutes).
+
 **- Priority Level Impact:** As expected, higher-priority incidents (levels 0 and 1) had shorter response times (604 seconds and 875 seconds, respectively) compared to lower-priority calls. This indicates that the department is generally effective in prioritizing critical incidents.
+
 **- Mental Health Response Times:** The average response time for mental health-related incidents (3.38k seconds) was notably higher than the overall average, suggesting we need to find ways to improve how we handle these situations.
+
 **- Time of Day Variations:** Response times were generally faster during the night (2719 seconds) compared to other periods of the day, likely because traffic was lighter.
+
 **- Day-of-Week Variations:** Response times were fastest on Fridays (2598 seconds) and slowest on Saturdays (3508 seconds), likely influenced by factors such as increased weekend traffic or higher call volume on Saturdays.
 
 **2. Call Volume Trends:**
 **- Seasonal Variations:** We saw clear seasonal patterns in call volume, with higher call volumes observed during the summer months (June, July, August) compared to the winter months. This might have been due to increased outdoor activities and seasonal events during the summer.
+
 **- Daily Trends:** Call volume peaked during the afternoon (28.22k calls) and evening (19.02k calls) periods, reflecting increased activity and potential for higher demand during these times.
+
 **- Weekday Variations:** Weekdays were generally busier than weekends, with Monday, Tuesday, and Wednesday being the busiest days.
 
-**- 3. Sector-Level Performance:**
+**3. Sector-Level Performance:**
+
 **- Call Volume Distribution:** Some sectors had a much higher volume of calls than others. Sectors like Henry, Edwards, and Frank consistently received a higher volume of calls.
+
 **- Response Time Analysis:** To compare how quickly sectors respond, we used a special metric called "Average Response Time per Call." Like I stated earlier, this metric helps us understand how fast a sector responds to each individual call, regardless of how many calls they receive.
+
 **-    Think of it this way:**
 Imagine two sectors. Sector A receives 100 calls and takes an average of 300 seconds to respond to each. Sector B receives 50 calls and takes an average of 200 seconds per call. Sector B might have a lower overall response time, but it's handling fewer calls. "Average Response Time per Call" helps us see that Sector A is actually responding more quickly to each individual call.
 
@@ -160,28 +170,40 @@ This analysis revealed that sectors like David, Baker and George demonstrated sh
 - Sectors with higher "Average Response Time per Call" may need closer attention. This could indicate potential issues like insufficient resources, operational challenges, or difficulties navigating the area.
 
 **4. District-Level Analysis:**
+
 **- Busiest Districts:** Council Districts 1, 9, and 3 consistently ranked among the top five busiest districts, indicating a higher demand for emergency services in these areas.
+
 **- District Performance:** The data shows that some districts have significantly slower normal average response times. For example, Council District 1 has a normal average response time of 3319 seconds. Notably, Council District 1 is covered by 5 sectors, which is one of the highest sector allocations. In contrast, Council District 9 has a faster normal average response time and is also covered by 6 sectors. On the other hand, districts with fewer sectors, such as District 6 (2 sectors) and District 10 (2 sectors), have relatively slower response times. This suggests that sector allocation may be a factor influencing response times, but it's not the only factor.
 
 
 ## RECOMMENDATIONS 
 Here are some recommendations based on the observation from the analysed dataset
+
 **1. Learn from the Best:**
  Taking a closer look at sectors like David and baker which have the fastest normal average response time despite having high call volumes.. What's their secret? Identify the strategies and best practices that contribute to their success and apply them to underperforming sectors.
+ 
 **Investigate and Address Underperforming Sectors:** Analyze sectors with higher "Average Response Time per Call," even with lower call volumes. Investigate potential factors contributing to slower response times, such as resource constraints, operational challenges, or geographical limitations.
+
 **2. Tackle High-Volume Districts:**
- Council Districts 1, 3, 4, and 7 have slower response times and high call volumes. Our analysis reveals a clear pattern, districts with more patrol sectors responding to incidents tend to have faster response times. A clear example of this is district 0 and 9, which have the highest patrol sector allocation and consequently boast the fastest response times. This insight should inform the approach to districts struggling with slow response times. To get them back on track, APD should consider reallocating existing resources or adding additional officers and dispatchers to these districts to improve response times
+ Council Districts 1, 3, 4, and 7 have slower response times and high call volumes. Our analysis reveals a clear pattern, districts with more patrol sectors responding to incidents tend to have faster response times. A clear example of this is district 0 and 9, which have the highest patrol sector allocation and consequently boast the fastest response times. This insight should inform the approach to districts struggling with slow response times. To get them back on track, APD should consider reallocating existing resources or adding additional officers and dispatchers to these districts to improve response times.
+ 
 **3. Optimize Staffing and Scheduling:**
+
 A. Adjust Staffing Levels Based On Season - We saw clear seasonal patterns in call volume as call volumes consistently spike during the summer months (June, July, and August) compared to the winter months, likely due to increased outdoor activities and seasonal events. To ensure readiness to respond effectively, APD should adjust the number of officers on duty based on the time of year. There should be an increase in staffing during busier summer months and a slight reduction during quieter winter months to make the best use of resources.
+
 B. Adjust Staffing Levels Based on Time of Day and Day of Week - Call volumes and response times vary significantly by time of day and day of week. For example:
--     Monday, Tuesday, and Wednesday have the highest call volumes while Afternoon periods experience a 28% increase in call volume compared to morning periods.
--     Saturdays have the slowest average response time and a relatively high call volume 
+
+- Monday, Tuesday, and Wednesday have the highest call volumes while Afternoon periods experience a 28% increase in call volume compared to morning periods.
+- Saturdays have the slowest average response time and a relatively high call volume. 
 **To address these variations, consider adjusting staffing levels as follows:**
 - Increase staffing by 10-15% on Mondays, Tuesdays, and Wednesdays to address higher call volumes.
 - Add additional dispatchers and officers during afternoon periods to handle increased call volume.
 - Review staffing levels on Saturdays and consider adding additional resources to improve response times.
+- 
 **4. Enhance Response Times for Mental Health Incidents:** The average response time for mental health-related incidents (3.38k seconds) was notably higher than the overall average. Develop strategies to reduce response times for these incidents, such as providing specialized training for responders, partnering with mental health professionals or creating a dedicated crisis response team dedicated to mental health response.
+  
 **5. Implement Technology Enhancements:** Leverage technology, such as automated dispatch systems and data analytics tools, to streamline emergency response processes and improve response times.
+
 **6. Foster Community Partnerships:** Forging strong partnerships with local organizations, mental health services, and other stakeholders could help us better support our community during emergencies and improve outcomes for everyone.
 
 ## SUMMARY
