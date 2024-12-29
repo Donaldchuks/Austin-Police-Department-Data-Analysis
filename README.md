@@ -60,11 +60,12 @@ Power BI - Creating Reports
 The dataset was provided as a clean CSV file containing one Table of approximately 96,000 911 call records, with each record representing a unique incident and 25 columns. No missing values or duplicates were found upon review. However, I enhanced the dataset to facilitate deeper analysis and answer time-based questions, such as trends over specific periods or time of day.
 To enhance the dataset and facilitate deeper analysis, I made the following adjustments:
 - Created two additional columns
+
 ‘Month’: Extracted from the Response Datetime column to analyze monthly trends in response times and call volumes.
 
 ‘Time of Day’: Derived from the Response Hour column, The “Time Of Day” column was categorized into four distinct periods: Morning (6 AM to 12 PM), Afternoon (12 PM to 6 PM), Evening (6 PM to 12 AM), and Night (12 AM to 6 AM). This classification provided insight into temporal patterns.
 
-- Renamed 'Incident Number' to 'Call Volume'. In this dataset, each incident is assigned a unique "Incident Number." So, when we count the number of incident numbers, we're essentially counting the number of individual 911 calls.
+- Renamed 'Incident Number' to 'Call Volume': In this dataset, each incident is assigned a unique "Incident Number." So, when we count the number of incident numbers, we're essentially counting the number of individual 911 calls.
 
 - Used the 'Council District' column for geographic analysis: This column provides a more relevant level of geographic detail compared to 'Geo ID' for analyzing district-level trends.
 
@@ -77,8 +78,23 @@ Once the new columns were added, the dataset was imported into Power BI, setting
 ## ANALYSIS : UNVEILING THE SECRET OF OUR DATA
 Now that our data is prepared, we embark on a detailed analysis to uncover key insights. This analysis is divided into five key sections:
 
-## Overview
-Response Time Overview A general look at how quickly APD responds to calls.
-Calls Trend Overview: How call volumes vary throughout the day, week, and month.
-Patrol Sector Performance: A comparison of response times across different patrol sectors.
-Geographic Patterns: Analyzing response times in different neighborhoods and districts.
+1. Overview
+2. Response Time Overview A general look at how quickly APD responds to calls.
+3. Calls Trend Overview: How call volumes vary throughout the day, week, and month.
+4. Patrol Sector Performance: A comparison of response times across different patrol sectors.
+5. Geographic Patterns: Analyzing response times in different neighborhoods and districts.
+
+## OVERVIEW
+This page displays a summary of key metrics such as 
+- Filter Panel: Allows users to filter data based on call type and location, enabling more targeted analysis.
+- Total Call Vol: A clear picture of the overall call volume, indicating the demand on emergency services.
+- Avg Response Time: The average response time for all the calls which  measure the overall efficiency in responding to calls.
+- Total patrol sectors: the total patrol sectors in austin department
+- Mental Health response time: Provides specific insights into the department's response to mental health-related calls.
+- Call Volume Trends: Visualizes call volume trends over time, helping identify peak hours, days, and months.
+- Avg Response Time Trend: Reveals when response times are typically slower, allowing for proactive resource allocation and potential staffing adjustments.
+- Average Response Time Per Call: Compares average response times per call across the different patrol sectors.
+- Average Response Time: Priority Level:   Examines how response times vary based on call priority. 
+- Incident trends by priority level: Displays the number of incidents over time for each priority level.
+- Top 5 Busiest Districts: Identifies the top five busiest council districts, allowing for focused resource allocation and improved response strategies.
+
