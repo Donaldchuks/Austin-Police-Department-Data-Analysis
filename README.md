@@ -87,6 +87,9 @@ Now that our data is prepared, we embark on a detailed analysis to uncover key i
 **5. Geographic Patterns:** Analyzing response times in different neighborhoods and districts.
 
 ## OVERVIEW
+![Screenshot (183)](https://github.com/user-attachments/assets/62888fa4-5a4e-416c-a7f1-b80fb32b42ad)
+
+
 This page displays a summary of key metrics such as 
 - Filter Panel: Allows users to filter data based on call type and location, enabling more targeted analysis.
 - Total Call Vol: A clear picture of the overall call volume, indicating the demand on emergency services.
@@ -113,6 +116,9 @@ This page gives insight into response time trends, focusing on various temporal 
 - Average Response Time Monthly: Tracks average response times across different months of the year.
 
 ## CALL TREND OVERVIEW
+![Screenshot (184)](https://github.com/user-attachments/assets/195f6d7d-34e2-4e62-a2ea-adc4e98f777d)
+
+
 This page provides a comprehensive overview of call volume and trends related to 911 incidents in Austin.
 - Total Calls Received: A key metric displaying the total number of 911 calls received by the department.
 - Call Trends by Priority Level: This line chart visualizes the number of calls received over time for each priority level. 
@@ -121,6 +127,9 @@ This page provides a comprehensive overview of call volume and trends related to
 - Call Type Metrics: A table that shows each particular call type, call volume and their Avg response time.
 
 ## PATROL SECTOR PERFORMANCE
+![Screenshot (185)](https://github.com/user-attachments/assets/318f8175-8b1e-441e-8556-6febc006847d)
+
+
 **For this visual, I created a new measure **“Avg Response Time Per Call”** by dividing the average response time by the incident count for each patrol sector.*
 
 **This metric helps us understand how fast a patrol sector responds to each individual call, regardless of how many calls they receive. This is to ensure a fair comparison of response times across patrol sectors. This measure was necessary because sectors with higher incident volumes naturally tend to have higher total response times, which can be misleading.*
@@ -133,6 +142,9 @@ This page provides a comprehensive overview of call volume and trends related to
 - Avg Response Time per Call Trend: This line chart visualizes the trend of average response time per call over time for each patrol sector. 
 
 ## GEOGRAPHIC PATTERNS
+![Screenshot (186)](https://github.com/user-attachments/assets/8d17fc75-983f-49af-a78f-1597a096c178)
+
+
 This page provides valuable insights into the district-level performance of the emergency response system.
 - Total District: A KPI that provides the total number of districts within the city.
 - Avg Response Time Trend Across Districts: Visualizes the trend of average response times across different districts over time.
