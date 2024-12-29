@@ -103,7 +103,7 @@ This page displays a summary of key metrics such as
 - Top 5 Busiest Districts: Identifies the top five busiest council districts, allowing for focused resource allocation and improved response strategies.
 
 ## RESPONSE TIME OVERVIEW
-![Screenshot (184)](https://github.com/user-attachments/assets/2e4ed745-a1e3-445f-8466-7c5563a140ac)
+![Screenshot (182)](https://github.com/user-attachments/assets/68b3f8bc-b944-4cab-8386-934f310fdcd1)
 
 This page gives insight into response time trends, focusing on various temporal operational factors such as
 - Average Response Time: A key performance indicator (KPI) showing the overall average response time for all calls.
@@ -115,7 +115,7 @@ This page gives insight into response time trends, focusing on various temporal 
 - Average Response Time Monthly: Tracks average response times across different months of the year.
 
 ## CALL TREND OVERVIEW
-![Screenshot (185)](https://github.com/user-attachments/assets/f6872fa0-094a-486a-a4e6-bc1fb79be50f)
+![Screenshot (184)](https://github.com/user-attachments/assets/2e4ed745-a1e3-445f-8466-7c5563a140ac)
 
 This page provides a comprehensive overview of call volume and trends related to 911 incidents in Austin.
 - Total Calls Received: A key metric displaying the total number of 911 calls received by the department.
@@ -125,8 +125,7 @@ This page provides a comprehensive overview of call volume and trends related to
 - Call Type Metrics: A table that shows each particular call type, call volume and their Avg response time.
 
 ## PATROL SECTOR PERFORMANCE
-![Screenshot (186)](https://github.com/user-attachments/assets/0d9ea879-1434-4364-8ce0-00b77da7e5f1)
-
+![Screenshot (185)](https://github.com/user-attachments/assets/f6872fa0-094a-486a-a4e6-bc1fb79be50f)
 
 **For this visual, I created a new measure **“Avg Response Time Per Call”** by dividing the average response time by the incident count for each patrol sector.*
 
@@ -140,8 +139,7 @@ This page provides a comprehensive overview of call volume and trends related to
 - Avg Response Time per Call Trend: This line chart visualizes the trend of average response time per call over time for each patrol sector. 
 
 ## GEOGRAPHIC PATTERNS
-![Screenshot (186)](https://github.com/user-attachments/assets/8d17fc75-983f-49af-a78f-1597a096c178)
-
+![Screenshot (186)](https://github.com/user-attachments/assets/0d9ea879-1434-4364-8ce0-00b77da7e5f1)
 
 This page provides valuable insights into the district-level performance of the emergency response system.
 - Total District: A KPI that provides the total number of districts within the city.
