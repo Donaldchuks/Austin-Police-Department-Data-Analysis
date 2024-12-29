@@ -60,6 +60,7 @@ Power BI - Creating Reports
 ## DATA MANIPULATION AND PREPARATION
 The dataset was provided as a clean CSV file containing one Table of approximately 96,000 911 call records, with each record representing a unique incident and 25 columns. No missing values or duplicates were found upon review. However, I enhanced the dataset to facilitate deeper analysis and answer time-based questions, such as trends over specific periods or time of day.
 To enhance the dataset and facilitate deeper analysis, I made the following adjustments:
+
 **- Created two additional columns**
 
 **‘Month’:** Extracted from the **Response Datetime** column to analyze monthly trends in response times and call volumes.
@@ -151,6 +152,8 @@ This page provides valuable insights into the district-level performance of the 
 **- Day-of-Week Variations:** Response times were fastest on Fridays (2598 seconds) and slowest on Saturdays (3508 seconds), likely influenced by factors such as increased weekend traffic or higher call volume on Saturdays.
 
 **2. Call Volume Trends:**
+
+
 **- Seasonal Variations:** We saw clear seasonal patterns in call volume, with higher call volumes observed during the summer months (June, July, August) compared to the winter months. This might have been due to increased outdoor activities and seasonal events during the summer.
 
 **- Daily Trends:** Call volume peaked during the afternoon (28.22k calls) and evening (19.02k calls) periods, reflecting increased activity and potential for higher demand during these times.
@@ -163,7 +166,7 @@ This page provides valuable insights into the district-level performance of the 
 
 **- Response Time Analysis:** To compare how quickly sectors respond, we used a special metric called "Average Response Time per Call." Like I stated earlier, this metric helps us understand how fast a sector responds to each individual call, regardless of how many calls they receive.
 
-**-    Think of it this way:**
+-    Think of it this way:
 Imagine two sectors. Sector A receives 100 calls and takes an average of 300 seconds to respond to each. Sector B receives 50 calls and takes an average of 200 seconds per call. Sector B might have a lower overall response time, but it's handling fewer calls. "Average Response Time per Call" helps us see that Sector A is actually responding more quickly to each individual call.
 
 This analysis revealed that sectors like David, Baker and George demonstrated shorter average response times per call.
@@ -194,12 +197,13 @@ A. Adjust Staffing Levels Based On Season - We saw clear seasonal patterns in ca
 B. Adjust Staffing Levels Based on Time of Day and Day of Week - Call volumes and response times vary significantly by time of day and day of week. For example:
 
 - Monday, Tuesday, and Wednesday have the highest call volumes while Afternoon periods experience a 28% increase in call volume compared to morning periods.
-- Saturdays have the slowest average response time and a relatively high call volume. 
+- Saturdays have the slowest average response time and a relatively high call volume.
+- 
 **To address these variations, consider adjusting staffing levels as follows:**
 - Increase staffing by 10-15% on Mondays, Tuesdays, and Wednesdays to address higher call volumes.
 - Add additional dispatchers and officers during afternoon periods to handle increased call volume.
 - Review staffing levels on Saturdays and consider adding additional resources to improve response times.
-- 
+
 **4. Enhance Response Times for Mental Health Incidents:** The average response time for mental health-related incidents (3.38k seconds) was notably higher than the overall average. Develop strategies to reduce response times for these incidents, such as providing specialized training for responders, partnering with mental health professionals or creating a dedicated crisis response team dedicated to mental health response.
   
 **5. Implement Technology Enhancements:** Leverage technology, such as automated dispatch systems and data analytics tools, to streamline emergency response processes and improve response times.
