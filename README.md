@@ -53,21 +53,22 @@ The provided data set consist of just one csv file which contains one table and 
 25. Council District: Council district where the offense occurred.
 
 ## DATA TOOLS
-# Excel - Cleaning Dataset
-# Power BI - Creating Reports
+Excel - Cleaning Dataset
+Power BI - Creating Reports
 
 ## DATA MANIPULATION AND PREPARATION
 The dataset was provided as a clean CSV file containing one Table of approximately 96,000 911 call records, with each record representing a unique incident and 25 columns. No missing values or duplicates were found upon review. However, I enhanced the dataset to facilitate deeper analysis and answer time-based questions, such as trends over specific periods or time of day.
 To enhance the dataset and facilitate deeper analysis, I made the following adjustments:
-# Created two additional columns
+- Created two additional columns
 ‘Month’: Extracted from the Response Datetime column to analyze monthly trends in response times and call volumes.
+
 ‘Time of Day’: Derived from the Response Hour column, The “Time Of Day” column was categorized into four distinct periods: Morning (6 AM to 12 PM), Afternoon (12 PM to 6 PM), Evening (6 PM to 12 AM), and Night (12 AM to 6 AM). This classification provided insight into temporal patterns.
 
-# Renamed 'Incident Number' to 'Call Volume'. In this dataset, each incident is assigned a unique "Incident Number." So, when we count the number of incident numbers, we're essentially counting the number of individual 911 calls.
+- Renamed 'Incident Number' to 'Call Volume'. In this dataset, each incident is assigned a unique "Incident Number." So, when we count the number of incident numbers, we're essentially counting the number of individual 911 calls.
 
-# Used the 'Council District' column for geographic analysis: This column provides a more relevant level of geographic detail compared to 'Geo ID' for analyzing district-level trends.
+- Used the 'Council District' column for geographic analysis: This column provides a more relevant level of geographic detail compared to 'Geo ID' for analyzing district-level trends.
 
-# Utilized the "Final Problem Category" column as the “Call reason” for analysis: This column provides a more accurate and specific categorization of incidents, as it describes the ultimate issue addressed by the APD incident in contrast to the ”Initial Problem Description” column, which may change based on additional information gathered during the call-taking and response processes.
+- Utilized the "Final Problem Category" column as the “Call reason” for analysis: This column provides a more accurate and specific categorization of incidents, as it describes the ultimate issue addressed by the APD incident in contrast to the ”Initial Problem Description” column, which may change based on additional information gathered during the call-taking and response processes.
 
 These adjustments enabled more precise analysis and visualization of our dataset, ultimately providing valuable insights into 911 call patterns and response times.
 
