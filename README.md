@@ -101,6 +101,8 @@ This page displays a summary of key metrics such as
 - Top 5 Busiest Districts: Identifies the top five busiest council districts, allowing for focused resource allocation and improved response strategies.
 
 ## RESPONSE TIME OVERVIEW
+![Screenshot (182)](https://github.com/user-attachments/assets/9203f1b2-0eb6-44aa-9334-87865765bc21)
+
 This page gives insight into response time trends, focusing on various temporal operational factors such as
 - Average Response Time: A key performance indicator (KPI) showing the overall average response time for all calls.
 - Avg Response Time For Mental Health Incidents: A key performance indicator (KPI) highlighting the average response time for mental health-related calls.
