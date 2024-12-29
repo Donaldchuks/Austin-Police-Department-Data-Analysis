@@ -54,6 +54,7 @@ The provided data set consist of just one csv file which contains one table and 
 
 ## DATA TOOLS
 Excel - Cleaning Dataset
+
 Power BI - Creating Reports
 
 ## DATA MANIPULATION AND PREPARATION
@@ -97,4 +98,35 @@ This page displays a summary of key metrics such as
 - Average Response Time: Priority Level:   Examines how response times vary based on call priority. 
 - Incident trends by priority level: Displays the number of incidents over time for each priority level.
 - Top 5 Busiest Districts: Identifies the top five busiest council districts, allowing for focused resource allocation and improved response strategies.
+
+## RESPONSE TIME OVERVIEW
+This page gives insight into response time trends, focusing on various temporal operational factors such as
+- Average Response Time: A key performance indicator (KPI) showing the overall average response time for all calls.
+- Avg Response Time For Mental Health Incidents: A key performance indicator (KPI) highlighting the average response time for mental health-related calls.
+- Average Response Time for priority level: Examines how response times vary based on call priority.
+- Average Response Time Difference by Day: Compares the average response time for each day of the week to the overall average response time.
+- Average Response Time Weekly: Compares average response times across different days of the week.
+- Average Response Time Period of Day: Analyzes how response times vary across different periods of the day (e.g., morning, afternoon, evening, night). This reveals peak hours for emergency calls and informs staffing decisions.
+- Average Response Time Monthly: Tracks average response times across different months of the year.
+
+## CALL TREND OVERVIEW
+This page provides a comprehensive overview of call volume and trends related to 911 incidents in Austin.
+- Total Calls Received: A key metric displaying the total number of 911 calls received by the department.
+- Call Trends by Priority Level: This line chart visualizes the number of calls received over time for each priority level. 
+- Total Calls Received by Patrol Sector: This funnel chart visualizes the distribution of calls across different patrol sectors, ranking them from the sector with the highest call volume to the sector with the lowest.
+- Count of Incident Number by Month: Seasonal trends Identify months with higher or lower call volumes.
+- Call Type Metrics: A table that shows each particular call type, call volume and their Avg response time.
+
+## PATROL SECTOR PERFORMANCE
+_For this visual, I created a new measure “Avg Response Time Per Call” by dividing the average response time by the incident count for each patrol sector. 
+
+This metric helps us understand how fast a patrol sector responds to each individual call, regardless of how many calls they receive. This is to ensure a fair comparison of response times across patrol sectors. This measure was necessary because sectors with higher incident volumes naturally tend to have higher total response times, which can be misleading._
+ 
+- Total Patrol Sectors: This KPI provides the total number of patrol sectors within the Austin Police Department.
+- Average Response Time per Call: This KPI displays the overall average response time per call for all calls received.
+- Total Calls Received by Patrol Sectors: This chart visualizes the distribution of calls across different patrol sectors, ranking them from the sector with the highest call volume to the sector with the lowest.
+- Average Response Time per Call by Patrol Sector: This bar chart compares the average response time per call across different patrol sectors.
+- Normal Avg Response Time Trend: This line chart compares the normal average response time trend with the actual response time trend for each patrol sector.
+- Avg Response Time per Call Trend: This line chart visualizes the trend of average response time per call over time for each patrol sector. 
+
 
