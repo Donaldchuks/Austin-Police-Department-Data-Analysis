@@ -208,7 +208,7 @@ B. Adjust Staffing Levels Based on Time of Day and Day of Week - Call volumes an
 
 - Monday, Tuesday, and Wednesday have the highest call volumes while Afternoon periods experience a 28% increase in call volume compared to morning periods.
 - Saturdays have the slowest average response time and a relatively high call volume.
-- 
+  
 **To address these variations, consider adjusting staffing levels as follows:**
 - Increase staffing by 10-15% on Mondays, Tuesdays, and Wednesdays to address higher call volumes.
 - Add additional dispatchers and officers during afternoon periods to handle increased call volume.
