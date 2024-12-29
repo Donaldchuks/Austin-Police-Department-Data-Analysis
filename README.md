@@ -87,8 +87,7 @@ Now that our data is prepared, we embark on a detailed analysis to uncover key i
 **5. Geographic Patterns:** Analyzing response times in different neighborhoods and districts.
 
 ## OVERVIEW
-![Screenshot (183)](https://github.com/user-attachments/assets/62888fa4-5a4e-416c-a7f1-b80fb32b42ad)
-
+![Screenshot (183)](https://github.com/user-attachments/assets/f47e04f1-7eaf-436e-8db7-ceede64e3f69)
 
 This page displays a summary of key metrics such as 
 - Filter Panel: Allows users to filter data based on call type and location, enabling more targeted analysis.
@@ -104,7 +103,7 @@ This page displays a summary of key metrics such as
 - Top 5 Busiest Districts: Identifies the top five busiest council districts, allowing for focused resource allocation and improved response strategies.
 
 ## RESPONSE TIME OVERVIEW
-![Screenshot (182)](https://github.com/user-attachments/assets/9203f1b2-0eb6-44aa-9334-87865765bc21)
+![Screenshot (184)](https://github.com/user-attachments/assets/2e4ed745-a1e3-445f-8466-7c5563a140ac)
 
 This page gives insight into response time trends, focusing on various temporal operational factors such as
 - Average Response Time: A key performance indicator (KPI) showing the overall average response time for all calls.
@@ -116,8 +115,7 @@ This page gives insight into response time trends, focusing on various temporal 
 - Average Response Time Monthly: Tracks average response times across different months of the year.
 
 ## CALL TREND OVERVIEW
-![Screenshot (184)](https://github.com/user-attachments/assets/195f6d7d-34e2-4e62-a2ea-adc4e98f777d)
-
+![Screenshot (185)](https://github.com/user-attachments/assets/f6872fa0-094a-486a-a4e6-bc1fb79be50f)
 
 This page provides a comprehensive overview of call volume and trends related to 911 incidents in Austin.
 - Total Calls Received: A key metric displaying the total number of 911 calls received by the department.
@@ -127,7 +125,7 @@ This page provides a comprehensive overview of call volume and trends related to
 - Call Type Metrics: A table that shows each particular call type, call volume and their Avg response time.
 
 ## PATROL SECTOR PERFORMANCE
-![Screenshot (185)](https://github.com/user-attachments/assets/318f8175-8b1e-441e-8556-6febc006847d)
+![Screenshot (186)](https://github.com/user-attachments/assets/0d9ea879-1434-4364-8ce0-00b77da7e5f1)
 
 
 **For this visual, I created a new measure **“Avg Response Time Per Call”** by dividing the average response time by the incident count for each patrol sector.*
